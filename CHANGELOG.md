@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated CI to also test on PHP 8.3 #407
 - Updated readme PHP requirement to PHP 7.0+ #407
 - Added dependabot for GitHub Actions #407
+- Check subject when verifying JWT claims #406
 
 ### Fixed
 - Changed parameter #2 of http_build_query to empty string on requestTokenExchange to support PHP8.x #413
