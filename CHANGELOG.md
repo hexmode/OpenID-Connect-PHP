@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Check subject when verifying JWT claims #406
+
 ### Fixed
 - Changed parameter #2 of http_build_query to empty string on requestTokenExchange to support PHP8.x #413
 - Return types are too strict. #412
