@@ -4,9 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [unreleased]
+## [Unreleased]
 
 ### Fixed
+- Changed parameter #2 of http_build_query to empty string on requestTokenExchange to support PHP8.x #413
 - Return types are too strict. #412
 
 ## [1.0.0] - 2023-12-13
